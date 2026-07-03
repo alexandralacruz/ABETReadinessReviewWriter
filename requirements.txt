@@ -1,0 +1,7 @@
+langchain>=0.0.300
+openai>=1.0.0
+chromadb>=0.3.29
+pypdf>=3.0.0
+python-docx>=0.8.11
+tqdm
+python-dotenv
