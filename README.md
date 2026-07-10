@@ -11,8 +11,13 @@ Quickstart
    - export OPENAI_API_KEY="sk-..."
    - python -m venv .venv && source .venv/bin/activate
    - pip install -r requirements.txt
-4. Run:
-   - python prototype/app.py
+4. Run backend API:
+   - cd repo root
+   - FLASK_APP=api/app.py flask run --port 5000
+5. Run the UI:
+   - cd web
+   - npm install
+   - npm run dev
 
 Notes
 - The LLM will only be as reliable as the retrieval & prompts. The prototype enforces JSON + evidence citation, but you MUST review the outputs.

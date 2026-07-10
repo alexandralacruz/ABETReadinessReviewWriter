@@ -1,0 +1,7 @@
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; padding: 16px; }
+.container { max-width: 900px; margin: 0 auto; }
+.results { margin-top: 20px; }
+.result-item { border: 1px solid #ddd; padding: 8px; margin-bottom: 8px; }
+.summary { display: flex; gap: 12px; align-items: center; }
+.details { margin-top: 8px; background: #fafafa; padding: 8px; }
+.error { color: red; }
