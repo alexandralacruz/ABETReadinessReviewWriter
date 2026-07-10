@@ -5,3 +5,5 @@ pypdf>=3.0.0
 python-docx>=0.8.11
 tqdm
 python-dotenv
+flask>=2.0.0
+flask-cors>=3.0.10

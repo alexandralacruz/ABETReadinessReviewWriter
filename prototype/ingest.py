@@ -28,6 +28,8 @@ def load_txt(path: str) -> List[Dict]:
 
 def ingest_dir(dir_path: str = "sample_docs") -> List[Dict]:
     docs = []
+    if not os.path.isdir(dir_path):
+        return docs
     for fn in os.listdir(dir_path):
         path = os.path.join(dir_path, fn)
         if fn.lower().endswith(".pdf"):
